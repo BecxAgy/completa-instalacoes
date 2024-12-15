@@ -9,12 +9,7 @@ import { navVariants } from "@/lib/motion";
 
 const Navbar = () => {
   return (
-    <motion.nav
-      variants={navVariants}
-      initial="hidden"
-      whileInView="show"
-      className="navbar"
-    >
+    <motion.nav initial="hidden" whileInView="show" className="navbar">
       {/* Logo: sempre visível */}
       <Image src="/assets/logo.svg" alt="logo" width={78} height={56} />
 

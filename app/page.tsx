@@ -7,7 +7,7 @@ import ServicesSection from "@/components/sections/ServicesSection";
 
 export default function Home() {
   return (
-    <main className="relative">
+    <main className="overflow-x-hidden ">
       <Navbar />
       <HeroSection />
       <AboutUsSection />

@@ -21,7 +21,7 @@ const sidebarLinks = [
 
 const MobileNav = () => {
   return (
-    <section className="w-full max-w-[264px] sm:hidden ">
+    <section className="w-full max-w-[264px] sm:hidden  ">
       <Sheet>
         <SheetTrigger asChild>
           <RiBarChartHorizontalLine className="cursor-pointer sm:hidden" />
@@ -31,7 +31,7 @@ const MobileNav = () => {
             <Image src="/assets/logo.svg" alt="logo" width={78} height={56} />
           </SheetTitle>
 
-          <div className="flex h-[calc(100vh-72px)] flex-col justify-between overflow-y-auto">
+          <div className="flex h-[calc(100vh-72px)] hoverflow-y-visible flex-col justify-between overflow-y-auto">
             <SheetClose asChild>
               <section className=" flex h-full flex-col gap-6 pt-16 ">
                 {sidebarLinks.map((item) => {

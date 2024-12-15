@@ -5,7 +5,7 @@ import { Button } from "../ui/button";
 const ContactSection = () => {
   return (
     <section className="relative w-full md:py-24 py-16 md:px-20 px-10">
-      <div className="grid grid-cols-2 gap-16">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-16">
         <div>
           <h2 className="md:text-5xl text-4xl font-semibold pb-8">
             Possibilidades Completas
@@ -31,7 +31,7 @@ const ContactSection = () => {
             alt="placa"
             width={500}
             height={500}
-            className="w-fit rounded-xl"
+            className="w-full rounded-xl"
           />
         </div>
       </div>

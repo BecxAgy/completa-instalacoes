@@ -19,7 +19,7 @@ const FeatureCard = ({
       </div>
       <div className="pl-2">
         <h3 className="text-2xl font-semibold mt-6">{title}</h3>
-        <p className="text-lg text-gray-primary">{description}</p>
+        <p className="md:text-lg  text-gray-primary">{description}</p>
       </div>
     </div>
   );

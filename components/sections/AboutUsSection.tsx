@@ -17,7 +17,7 @@ const AboutUsSection = () => {
       >
         <motion.div variants={fadeIn("left", "tween", 0.2, 1)}>
           <div className="bg-red-primary w-20 h-[0.4rem] rounded-sm mb-8"></div>
-          <h2 className="md:text-5xl text-4xl font-semibold">Quem somos?</h2>
+          <h2 className="md:text-5xl text-3xl font-semibold">Quem somos?</h2>
         </motion.div>
         <motion.p
           variants={fadeIn("left", "tween", 0.4, 1)}

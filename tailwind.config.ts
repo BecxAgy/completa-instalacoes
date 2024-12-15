@@ -11,6 +11,10 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        sm: "470px",
+        md: "769px",
+      },
       colors: {
         "red-primary": "#EB373F",
         "gray-primary": "#C4C4C4",

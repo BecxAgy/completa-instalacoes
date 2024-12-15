@@ -112,7 +112,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body
-        className={`${fontSans.variable} font-sans antialiased bg-white text-black overflow-x-hidden`}
+        className={`${fontSans.variable} font-sans antialiased bg-white text-black `}
       >
         {children}
       </body>

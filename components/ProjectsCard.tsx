@@ -33,8 +33,8 @@ const ProjectsCard = () => {
           onClick={() => setActiveCard(project.id)}
           className={`relative cursor-pointer rounded-lg overflow-hidden shadow-lg transition-all duration-300 md:h-[478px] ${
             activeCard === project.id
-              ? "md:min-w-[270px] w-full "
-              : "md:max-w-[200px]"
+              ? "md:min-w-[270px] h-[478px] w-full "
+              : "md:max-w-[200px] h-[100px] w-full"
           }`}
         >
           <img
