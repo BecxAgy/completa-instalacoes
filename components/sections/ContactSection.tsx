@@ -1,12 +1,21 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import { Button } from "../ui/button";
+import { fadeIn, staggerContainer } from "@/lib/motion";
+import { motion } from "framer-motion";
 
 const ContactSection = () => {
   return (
     <section className="relative w-full md:py-24 py-16 md:px-20 px-10">
-      <div className="grid md:grid-cols-2 grid-cols-1 gap-16">
-        <div>
+      <motion.div
+        variants={staggerContainer()}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0.25 }}
+        className="grid md:grid-cols-2 grid-cols-1 gap-16"
+      >
+        <motion.div variants={fadeIn("left", "tween", 0.4, 1)}>
           <h2 className="md:text-5xl text-4xl font-semibold pb-8">
             Possibilidades Completas
           </h2>
@@ -24,8 +33,8 @@ const ContactSection = () => {
               Saiba mais
             </Button>
           </div>
-        </div>
-        <div>
+        </motion.div>
+        <motion.div variants={fadeIn("right", "tween", 0.4, 1)}>
           <Image
             src="/assets/tecnology.png "
             alt="placa"
@@ -33,8 +42,8 @@ const ContactSection = () => {
             height={500}
             className="w-full rounded-xl"
           />
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
     </section>
   );
 };

@@ -10,14 +10,7 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { RiBarChartHorizontalLine } from "react-icons/ri";
 import { Button } from "./ui/button";
-
-const sidebarLinks = [
-  { route: "#", label: "Início" },
-  { route: "#sobre-nos", label: "Sobre nós" },
-  { route: "#servicos", label: "Servicos" },
-  { route: "#obras", label: "Obras" },
-  { route: "#contato", label: "Contato" },
-];
+import { sidebarLinks } from "@/constants";
 
 const MobileNav = () => {
   return (
@@ -34,7 +27,7 @@ const MobileNav = () => {
           <div className="flex h-[calc(100vh-72px)] hoverflow-y-visible flex-col justify-between overflow-y-auto">
             <SheetClose asChild>
               <section className=" flex h-full flex-col gap-6 pt-16 ">
-                {sidebarLinks.map((item) => {
+                {sidebarLinks.map((item: any) => {
                   return (
                     <SheetClose asChild key={item.route}>
                       <Link

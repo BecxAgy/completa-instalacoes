@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 
 import "./globals.css";
+import Footer from "@/components/Footer";
 
 const fontSans = localFont({
   src: [
@@ -115,6 +116,7 @@ export default function RootLayout({
         className={`${fontSans.variable} font-sans antialiased bg-white text-black `}
       >
         {children}
+        <Footer />
       </body>
     </html>
   );
