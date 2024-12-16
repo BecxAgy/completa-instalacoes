@@ -4,6 +4,7 @@ import HeroSlider from "../HeroSlider";
 import { Button } from "../ui/button";
 import { motion } from "framer-motion";
 import { fadeInUp, slideInLeft } from "@/lib/motion";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -31,12 +32,18 @@ const HeroSection = () => {
           cada cliente, garantindo sua total satisfação.
         </motion.p>
         <motion.div initial="hidden" animate="show" variants={slideInLeft(0.6)}>
+          
+        <Link href={'https://wa.link/lv1aol'} target="_blank">
+
+
           <Button
             size={"lg"}
             className="bg-red-primary text-white rounded-2xl mt-10 w-fit px-6"
           >
             Saiba mais
           </Button>
+          </Link>
+          
         </motion.div>
       </div>
     </section>

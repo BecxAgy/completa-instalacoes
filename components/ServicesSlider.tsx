@@ -49,7 +49,7 @@ const ServicesSlider = () => {
           <motion.div variants={fadeIn("left", "tween", 0.4, 1)}>
             <ServicesCards
               title="Automação"
-              description="Especialidade e qualidade ao oferecer soluções avançadas para proteção contra incêndios."
+              description="Reduza erros e alcance resultados exclusivos com soluções de automação."
               imageUrl="/assets/automacao.png"
             />
           </motion.div>
@@ -78,9 +78,9 @@ const ServicesSlider = () => {
           {" "}
           <motion.div variants={fadeIn("left", "tween", 0.4, 1)}>
             <ServicesCards
-              title="Automação"
+              title="Gerenciamento de Energia"
               description="Especialidade e qualidade ao oferecer soluções avançadas para proteção contra incêndios."
-              imageUrl="/assets/automacao.png"
+              imageUrl="/assets/energia.png"
             />
           </motion.div>
         </SwiperSlide>
@@ -88,9 +88,19 @@ const ServicesSlider = () => {
           {" "}
           <motion.div variants={fadeIn("left", "tween", 0.4, 1)}>
             <ServicesCards
-              title="Automação"
-              description="Soluções personalizadas para automação industrial."
-              imageUrl="/assets/automacao.png"
+              title="Instalações Especiais" 
+              description="Serviços que buscam sustentabilidade englobando diversas áreas, como energia solar e automação."
+              imageUrl="/assets/instalacoes.png"
+            />
+          </motion.div>
+        </SwiperSlide>
+        <SwiperSlide>
+          {" "}
+          <motion.div variants={fadeIn("left", "tween", 0.4, 1)}>
+            <ServicesCards
+              title="Manutenção"
+              description="Realização de inspeções periódicas, visando identificação rápida e diagnósticos precisos."
+              imageUrl="/assets/manutencao.png"
             />
           </motion.div>
         </SwiperSlide>

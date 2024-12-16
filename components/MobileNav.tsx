@@ -41,7 +41,11 @@ const MobileNav = () => {
                 })}
               </section>
             </SheetClose>
+
+            <Link href={'https://wa.link/lv1aol'} target="_blank">
+
             <Button className="bg-red-primary rounded-lg">Começar</Button>
+            </Link>
           </div>
         </SheetContent>
       </Sheet>

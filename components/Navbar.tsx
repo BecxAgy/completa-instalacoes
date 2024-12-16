@@ -33,9 +33,12 @@ const Navbar = () => {
       </div>
 
       <div className="hidden md:block">
+      <Link href={'https://wa.link/lv1aol'} target="_blank">
+
         <Button className="bg-red-primary text-white rounded-2xl">
           Começar
         </Button>
+      </Link>
       </div>
 
       {/* Mobile Nav: visível apenas em telas pequenas */}

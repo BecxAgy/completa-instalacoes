@@ -11,14 +11,14 @@ const projects = [
   {
     id: 2,
     imgUrl: "/assets/igreja.jpeg",
-    title: "Edifício Comercial",
-    description: "Sistema de Iluminação Inteligente",
+    title: "IURD - Automação Predial",
+    description: "Controle de toda iluminação da catedral",
   },
   {
     id: 3,
     imgUrl: "/assets/hospital.jpeg",
-    title: "Centro Corporativo",
-    description: "Instalação de Sistemas de Segurança",
+    title: "H. São Rafael",
+    description: "Automação de sistema HVAC - Sala de Ressonância Magnética",
   },
 ];
 

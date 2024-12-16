@@ -4,6 +4,7 @@ import React from "react";
 import { Button } from "../ui/button";
 import { fadeIn, staggerContainer } from "@/lib/motion";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const ContactSection = () => {
   return (
@@ -26,12 +27,15 @@ const ContactSection = () => {
           </p>
 
           <div className="flex justify-between">
+          <Link href={'https://wa.link/lv1aol'} target="_blank">
+
             <Button
               size={"lg"}
               className="bg-red-primary text-white rounded-2xl mt-10 w-fit px-6"
             >
               Saiba mais
             </Button>
+            </Link>
           </div>
         </motion.div>
         <motion.div variants={fadeIn("right", "tween", 0.4, 1)}>
