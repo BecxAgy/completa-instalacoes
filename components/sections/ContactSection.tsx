@@ -41,9 +41,9 @@ const ContactSection = () => {
           </div>
         </motion.div>
         <motion.div variants={fadeIn("right", "tween", 0.4, 1)}>
-          <Image
+          <img
             src="/assets/location.jpg "
-            alt="placa"
+            alt=""
             width={500}
             height={500}
             className="w-full rounded-xl"
