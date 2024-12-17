@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 
 import "./globals.css";
 import Footer from "@/components/Footer";
+import { i } from "framer-motion/client";
 
 const fontSans = localFont({
   src: [
@@ -103,6 +104,7 @@ const fontSans = localFont({
 export const metadata: Metadata = {
   title: "Completa Instalações",
   description: "A Completa ",
+  icons: "/logo.svg",
 };
 
 export default function RootLayout({

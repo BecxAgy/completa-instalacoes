@@ -3,12 +3,12 @@ import React from "react";
 import HeroSlider from "../HeroSlider";
 import { Button } from "../ui/button";
 import { motion } from "framer-motion";
-import { fadeInUp, slideInLeft } from "@/lib/motion";
+import { slideInLeft } from "@/lib/motion";
 import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <section className=" w-screen h-screen  m-0">
+    <section id="" className=" w-screen h-screen  m-0">
       <HeroSlider />
       {/* Texto sobre o slider */}
       <div className=" absolute xl:top-52 md:top-40 top-24 flex flex-col justify-center z-20 md:px-20 px-4 text-white">
@@ -32,18 +32,14 @@ const HeroSection = () => {
           cada cliente, garantindo sua total satisfação.
         </motion.p>
         <motion.div initial="hidden" animate="show" variants={slideInLeft(0.6)}>
-          
-        <Link href={'https://wa.link/lv1aol'} target="_blank">
-
-
-          <Button
-            size={"lg"}
-            className="bg-red-primary text-white rounded-2xl mt-10 w-fit px-6"
-          >
-            Saiba mais
-          </Button>
+          <Link href={"https://wa.link/lv1aol"} target="_blank">
+            <Button
+              size={"lg"}
+              className="bg-red-primary text-white rounded-2xl mt-10 w-fit px-6"
+            >
+              Saiba mais
+            </Button>
           </Link>
-          
         </motion.div>
       </div>
     </section>

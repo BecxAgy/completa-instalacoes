@@ -7,7 +7,7 @@ import { fadeIn, fadeInUp, staggerContainer } from "@/lib/motion";
 import { motion } from "framer-motion";
 const AboutUsSection = () => {
   return (
-    <section className="w-full  md:py-24 py-16 md:px-20 px-10">
+    <section id="sobre" className="w-full  md:py-24 py-16 md:px-20 px-10">
       <motion.div
         variants={staggerContainer()}
         initial="hidden"

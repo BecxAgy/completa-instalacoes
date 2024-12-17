@@ -9,7 +9,12 @@ import { navVariants } from "@/lib/motion";
 
 const Navbar = () => {
   return (
-    <motion.nav initial="hidden" whileInView="show" className="navbar">
+    <motion.nav
+      initial="hidden"
+      whileInView="show"
+      variants={navVariants}
+      className="navbar"
+    >
       {/* Logo: sempre visível */}
       <Image src="/assets/logo.svg" alt="logo" width={78} height={56} />
 
@@ -33,12 +38,11 @@ const Navbar = () => {
       </div>
 
       <div className="hidden md:block">
-      <Link href={'https://wa.link/lv1aol'} target="_blank">
-
-        <Button className="bg-red-primary text-white rounded-2xl">
-          Começar
-        </Button>
-      </Link>
+        <Link href={"https://wa.link/lv1aol"} target="_blank">
+          <Button className="bg-red-primary text-white rounded-2xl">
+            Começar
+          </Button>
+        </Link>
       </div>
 
       {/* Mobile Nav: visível apenas em telas pequenas */}

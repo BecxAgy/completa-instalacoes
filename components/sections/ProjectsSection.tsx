@@ -8,7 +8,7 @@ const ProjectsSection = () => {
   const [active, setActive] = useState<number>(1);
 
   return (
-    <section className="relative   md:py-24 py-16 md:px-20 px-10">
+    <section id='obras' className="relative   md:py-24 py-16 md:px-20 px-10">
       <motion.div
         variants={staggerContainer()}
         initial="hidden"
