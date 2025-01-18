@@ -11,7 +11,7 @@ const HeroSection = () => {
     <section id="" className=" w-screen h-screen  m-0">
       <HeroSlider />
       {/* Texto sobre o slider */}
-      <div className=" absolute xl:top-52 md:top-40 top-24 flex flex-col justify-center z-20 md:px-20 px-4 text-white">
+      <div className=" absolute xl:top-44 md:top-28 top-24 flex flex-col justify-center z-20 md:px-20 px-4 text-white">
         <motion.div
           initial="hidden"
           animate="show"
