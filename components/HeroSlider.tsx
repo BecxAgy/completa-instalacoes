@@ -52,6 +52,30 @@ const HeroSlider = () => {
           />
         </div>
       </SwiperSlide>
+      <SwiperSlide>
+        {" "}
+        <div className="w-full h-screen">
+          <Image
+            src="/assets/image-slide3.jpg"
+            alt=""
+            layout="fill"
+            objectFit="cover"
+            objectPosition="center"
+          />
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        {" "}
+        <div className="w-full h-screen">
+          <Image
+            src="/assets/image-slide4.jpg"
+            alt=""
+            layout="fill"
+            objectFit="cover"
+            objectPosition="center"
+          />
+        </div>
+      </SwiperSlide>
     </Swiper>
   );
 };

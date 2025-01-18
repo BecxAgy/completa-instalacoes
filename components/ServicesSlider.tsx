@@ -88,9 +88,9 @@ const ServicesSlider = () => {
           {" "}
           <motion.div variants={fadeIn("left", "tween", 0.4, 1)}>
             <ServicesCards
-              title="Instalações Especiais" 
+              title="Instalações Especiais"
               description="Serviços que buscam sustentabilidade englobando diversas áreas, como energia solar e automação."
-              imageUrl="/assets/instalacoes.png"
+              imageUrl="/assets/instalacao.png"
             />
           </motion.div>
         </SwiperSlide>

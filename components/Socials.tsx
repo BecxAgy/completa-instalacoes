@@ -8,6 +8,12 @@ const Socials = () => {
       <Link href={"https://wa.link/lv1aol"} target="_blank">
         <TbBrandWhatsapp className="text-red-primary h-8 w-8 hover:text-red-primary/50" />
       </Link>
+      <Link
+        href={"https://www.instagram.com/completainstalacoes/"}
+        target="_blank"
+      >
+        <TbBrandInstagram className="text-red-primary h-8 w-8 hover:text-red-primary/50" />
+      </Link>
     </div>
   );
 };
